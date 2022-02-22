@@ -1,4 +1,4 @@
-# охотхозяйства и рыболовство ![icon](https://github.com/Sowa1980/Company_Rekvizit_preset/blob/master/Rekvizit-min.png) 
+# охотхозяйства и рыболовство ![icon](https://github.com/Sowa1980/hunting_and_fishing_preset/blob/main/iconka.png) 
 Набор заготовок тегов для [JOSM](https://josm.openstreetmap.de/), служит для внесения: охотхозяйств, нерестовый участок, зимовальных яма. [Посмотреть заготовку]() 
 ## Основана [на вики страницы](https://wiki.openstreetmap.org/wiki/RU:Key:operator)
 ### Установка
