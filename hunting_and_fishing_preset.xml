@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
-  author="Sowa1980, Alexander-II;"
+  author="Sowa1980"
   link="https://wiki.openstreetmap.org/wiki/RU:Key:operator"
   icon=""
   description="hunting_and_fishing"
@@ -10,20 +10,20 @@
   version="0.1_2022-02-23">
                     
   <group name="hunting_and_fishing" ru.name="охотхозяйства и рыболовство" icon="" >
-    <item name="охотничье хозяйство" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+    <item name="охотничье хозяйство" ru.name="охотничье хозяйство" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
-	  <text key="landuse" text="hunting farm" ru.text="охотничье хозяйство" default="hunting_farm" />
+	  <key key="landuse" value="hunting farm" />
 	  <space/>
       </item>
 	  <item name="зимовальная яма" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
-	  <text key="wintering" text="wintering pit" ru.text="зимовальная яма" default="pit" />
+	  <key key="wintering" value="wintering pit" />
 	  <space/>
       </item>
-	  <item name="нерестовый участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+	  <item name="spawning area" ru.name="нерестовый участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
-	   <text key="spawning" value="area" default="area" text="wintering pit" ru.text="нерестовый участок" />
+	  <key key="spawning" value="area" />
 	  <space/>
       </item>
-	  </group>
+  </group>
 </presets>
