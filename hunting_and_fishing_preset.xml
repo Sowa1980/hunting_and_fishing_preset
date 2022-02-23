@@ -4,7 +4,7 @@
   link="https://wiki.openstreetmap.org/wiki/RU:Key:operator"
   icon=""
   description="hunting_and_fishing"
-  ru.description="Служит для внесения: охотхозяйств, нерестовый участок, зимовальных ям"
+  ru.description="Служит для внесения: охотхозяйств, нерестовых участоков, зимовальных ям, рыболовных участов"
   shortdescription="hunting_and_fishing"
   ru.shortdescription="охотхозяйства и рыболовство"
   version="0.1_2022-02-23">
