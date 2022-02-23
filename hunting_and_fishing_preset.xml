@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="Sowa1980, Alexander-II;"
+  link="https://wiki.openstreetmap.org/wiki/RU:Key:operator"
+  icon=""
+  description="hunting_and_fishing"
+  ru.description="Служит для внесения: охотхозяйств, нерестовый участок, зимовальных ям"
+  shortdescription="hunting_and_fishing"
+  ru.shortdescription="охотхозяйства и рыболовство"
+  version="0.1_2022-02-23">
+                    
+  <group name="hunting_and_fishing" ru.name="охотхозяйства и рыболовство" icon="" >
+    <item name="охотничье хозяйство" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+      <space/>
+	  <text key="landuse" text="hunting farm" ru.text="охотничье хозяйство" default="hunting_farm" />
+	  <space/>
+      </item>
+	  <item name="зимовальная яма" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+      <space/>
+	  <text key="wintering" text="wintering pit" ru.text="зимовальная яма" default="pit" />
+	  <space/>
+      </item>
+	  <item name="нерестовый участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+      <space/>
+	   <text key="spawning" value="area" default="area" text="wintering pit" ru.text="нерестовый участок" />
+	  <space/>
+      </item>
+	  </group>
+</presets>
