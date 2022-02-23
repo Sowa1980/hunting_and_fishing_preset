@@ -9,23 +9,34 @@
   ru.shortdescription="охотхозяйства и рыболовство"
   version="0.1_2022-02-23">
                     
-  <group name="hunting_and_fishing" ru.name="охотхозяйства и рыболовство" icon="" >
-    <item name="охотничье хозяйство" ru.name="охотничье хозяйство" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+  <group name="hunting_and_fishing" ru.name="Охотхозяйства и рыболовство" icon="" >
+    <item name="hunting farm" ru.name="Охотничье хозяйство" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
-	  <label text="hunting farm" ru.text="охотничье хозяйство" />
-	  <key key="landuse" value="hunting farm" />
+	  <label text="hunting farm" ru.text="Охотничье хозяйство" />
+	  <key key="landuse" value="hunting_farm" />
+	  <space/>
+	  <text key="operator" text="Operator" />
+	  <text key="tenant" text="Lessee" ru.text="Арендатор" />
 	  <space/>
       </item>
-	  <item name="зимовальная яма" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+	  <item name="Зимовальная яма" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
-	  <label text="wintering pit" ru.text="зимовальная яма" />
+	  <label text="wintering pit" ru.text="Зимовальная яма" />
 	  <key key="wintering" value="pit" />
 	  <space/>
       </item>
-	  <item name="spawning area" ru.name="нерестовый участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+	  <item name="spawning area" ru.name="Нерестовый участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
-	  <label text="spawning area" ru.text="нерестовый участок" />
+	  <label text="spawning area" ru.text="Нерестовый участок" />
 	  <key key="spawning" value="area" />
+	  <space/>
+      </item>
+	  <item name="spawning area" ru.name="Рыболовный участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
+      <space/>
+	  <label text="fishing area" ru.text="Рыболовный участок" />
+	  <key key="fishing" value="area" />
+	  <text key="operator" text="Operator" />
+	  <text key="tenant" text="Lessee" ru.text="Арендатор" />
 	  <space/>
       </item>
   </group>
