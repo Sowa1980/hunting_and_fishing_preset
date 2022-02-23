@@ -12,16 +12,19 @@
   <group name="hunting_and_fishing" ru.name="охотхозяйства и рыболовство" icon="" >
     <item name="охотничье хозяйство" ru.name="охотничье хозяйство" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
+	  <label text="hunting farm" ru.text="охотничье хозяйство" />
 	  <key key="landuse" value="hunting farm" />
 	  <space/>
       </item>
 	  <item name="зимовальная яма" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
-	  <key key="wintering" value="wintering pit" />
+	  <label text="wintering pit" ru.text="зимовальная яма" />
+	  <key key="wintering" value="pit" />
 	  <space/>
       </item>
 	  <item name="spawning area" ru.name="нерестовый участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" icon="">
       <space/>
+	  <label text="spawning area" ru.text="нерестовый участок" />
 	  <key key="spawning" value="area" />
 	  <space/>
       </item>
