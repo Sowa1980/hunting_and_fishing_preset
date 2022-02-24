@@ -6,7 +6,7 @@
   description="hunting_and_fishing"
   ru.description="Служит для внесения: охотхозяйств, нерестовых участков, зимовальных ям, рыболовных участков"
   shortdescription="hunting_and_fishing"
-  ru.shortdescription="охотхозяйства и рыболовство"
+  ru.shortdescription="Охотхозяйства и рыболовство"
   version="0.1_2022-02-24">
                     
   <group name="hunting_and_fishing" ru.name="Охотхозяйства и рыболовство" icon="" >
