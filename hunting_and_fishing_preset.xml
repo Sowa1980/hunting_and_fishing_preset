@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0"
+  author="Sowa1980"
+  link="https://wiki.openstreetmap.org/wiki/RU:Key:operator"
+  description="hunting_and_fishing"
+  ru.description="Служит для внесения: охотхозяйств, нерестовых участков, зимовальных ям, рыболовных участков"
+  shortdescription="hunting_and_fishing"
+  ru.shortdescription="Охотхозяйства и рыболовство"
+  version="0.3_2022-05-03">
+                    
+  <group name="hunting_and_fishing" ru.name="Охотхозяйства и рыболовство" >
+    <item name="hunting farm" ru.name="Охотничье хозяйство" type="multipolygon,relation,closedway,relation types" preset_name_label="true" >
+      <space/>
+	  <label text="hunting farm" ru.text="Охотничье хозяйство" />
+	  <key key="landuse" value="hunting_farm" />
+	  <space/>
+	  <text key="name" text="Name" ru.text="Название" />
+	  <text key="operator" text="Operator" />
+	  <text key="tenant" text="Lessee" ru.text="Арендатор" />
+	  <space/>
+	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
+	  <link href="https://github.com/Sowa1980/hunting_and_fishing_preset" text="github" ru.text="github"/>
+      </item>
+	  <item name="Зимовальная яма" type="multipolygon,relation,closedway,relation types" preset_name_label="true" >
+      <space/>
+	  <label text="wintering pit" ru.text="Зимовальная яма" />
+	  <key key="wintering" value="pit" />
+	  <space/>
+	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
+	  <link href="https://github.com/Sowa1980/hunting_and_fishing_preset" text="github" ru.text="github"/>
+      </item>
+	  <item name="spawning area" ru.name="Нерестовый участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" >
+      <space/>
+	  <label text="spawning area" ru.text="Нерестовый участок" />
+	  <key key="spawning" value="area" />
+	  <space/>
+	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
+	  <link href="https://github.com/Sowa1980/hunting_and_fishing_preset" text="github" ru.text="github"/>
+      </item>
+	  <item name="spawning area" ru.name="Рыболовный участок" type="multipolygon,relation,closedway,relation types" preset_name_label="true" >
+      <space/>
+	  <label text="fishing area" ru.text="Рыболовный участок" />
+	  <space/>
+	  <key key="fishing" value="area" />
+	  <text key="operator" text="Operator" />
+	  <text key="tenant" text="Lessee" ru.text="Арендатор" />
+	  <space/>
+	  <link href="https://www.openstreetmap.org/user/Sowa1980" text="contacts Author" ru.text="контакты Автор"/>
+	  <link href="https://github.com/Sowa1980/hunting_and_fishing_preset" text="github" ru.text="github"/>
+      </item>
+  </group>
+</presets>
